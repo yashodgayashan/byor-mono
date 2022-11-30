@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "yashodperera": {
+      "type": "object",
+      "properties": {
+        "com_a": {
+          "type": "object",
+          "properties": {
+            "test": {
+              "type": "string",
+              "description": ""
+            },
+            "hello": {
+              "type": "integer",
+              "description": ""
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "test",
+            "hello"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
